@@ -6,4 +6,5 @@ namespace: openshift-distributed-tracing
 
 resources:
   - namespace.yaml
+  - operator-group.yaml
   - subscription.yaml
