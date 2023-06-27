@@ -11,7 +11,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: clusters/rosa/argocd/bootstrap
+    path: clusters/rosa/apps
     repoURL: https://github.com/hupiper/front-config.git
     targetRevision: main
   syncPolicy:
