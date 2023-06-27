@@ -1,8 +1,9 @@
-kind: Kustomization
+---
 apiVersion: kustomize.config.k8s.io/v1beta1
-metadata:
-  annotations:
-    argocd.argoproj.io/sync-wave: "2"
+kind: Kustomization
+
+namespace: openshift-distributed-tracing
 
 resources:
-- github.com/redhat-cop/gitops-catalog/jaeger-operator/base
+  - namespace.yaml
+  - subscription.yaml

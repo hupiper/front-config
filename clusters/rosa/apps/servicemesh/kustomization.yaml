@@ -1,9 +1,8 @@
 ---
-kind: Kustomization
 apiVersion: kustomize.config.k8s.io/v1beta1
-metadata:
-  annotations:
-    argocd.argoproj.io/sync-wave: "4"
+kind: Kustomization
+
+namespace: openshift-operators
 
 resources:
-- github.com/redhat-cop/gitops-catalog/openshift-servicemesh/operator/overlays/stable
+  - subscription.yaml
