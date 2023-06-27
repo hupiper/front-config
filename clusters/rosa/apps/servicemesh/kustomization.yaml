@@ -5,5 +5,5 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "4"
 
-bases:
-- github.com/redhat-cop/gitops-catalog/kiali-operator/overlays/default
+resources:
+- github.com/redhat-cop/gitops-catalog/openshift-servicemesh/operator/overlays/stable
