@@ -5,4 +5,4 @@ metadata:
     argocd.argoproj.io/sync-wave: "2"
 
 resources:
-- github.com/redhat-cop/gitops-catalog/jaeger-operator/overlays/stable
+- github.com/redhat-cop/gitops-catalog/jaeger-operator/overlays/default
