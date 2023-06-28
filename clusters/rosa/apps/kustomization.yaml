@@ -7,5 +7,5 @@ resources:
   - jaeger
   - kiali
   - servicemesh
-#  - smcontrolplane
+  - smcontrolplane
 # - smmemberroll
